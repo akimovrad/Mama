@@ -17,31 +17,38 @@ fl.forEach(nav =>{
 
 
 const res = document.querySelector('.resume__right');
-const text = `<h4>Опыт</h4>
-            <p>4 года опыта в графическом и веб-дизайне, создаю дизайн, который работает на ваш успех.</p>
+const text = `<h4>Өмүр баяным</h4>
+            <p>Мен, Кошуева Даркүл Баатыровна, 1974-жылы 6-майда интеллигент үй-бүлөдө туулгам. 1981-жылы Ош облусунун Ноокат районуна караштуу Ломоносов атындагы орто мектебинин 1-классына кабыл алынып, 1991-жылы аталган мектепти күмүш медаль менен аяктадым.
+            Ошол эле жылы жогорку билим алуу максатында Ош мамлекеттик педагогикалык институтунун филология факультетине тапшырдым. 1996-жылы Ош мамлекеттик университетинин филология факультетин артыкчылык диплом менен бүтүрдүм.</p>
             <ul>
                 <li>
-                    <h6>2020-2025</h6>
-                    <h5>Граф. дизайн</h5>
-                    <p>С 7 класса начил обучаться в дизайне.</p>
+                    <h6>1997-2010</h6>
+                    <h5>Алтын-Казык орто мектеби</h5>
+                    <p>Бул жерде жаш муундарга билим берип, педагогикалык тажрыйба топтодум.</p>
                 </li>
 
                 <li>
-                    <h6>2021-2022</h6>
-                    <h5>Заказы</h5>
-                    <p>Через год после начала обучения у меня уже появились первые заказы на дизайн. </p>
+                    <h6>2010-2014</h6>
+                    <h5>Макаренко орто мектеби</h5>
+                    <p>Мен  биерде окутуунун заманбап ыкмаларын колдонуу аркылуу окуучулардын билим сапатын жогорулатууга аракет кылдым.</p>
                 </li>
 
                 <li>
-                    <h6>2023-2024</h6>
-                    <h5>Коммерческие проекты</h5>
-                    <p>С 2023 года работаю над коммерческими проектами, создавая дизайн для бизнеса и брендов.</p>
+                    <h6>2014</h6>
+                    <h5>Алымбек Датка лицейи</h5>
+                    <p>Ишмердүүлүгүмдүн негизги максаты – окуучуларга сапаттуу билим берүү, алардын ой жүгүртүүсүн, чыгармачылыгын жана инсандык сапаттарын өнүктүрүүгө көмөк көрсөтүү.</p>
                 </li>
 
                 <li>
-                    <h6>2024-2025</h6>
-                    <h5>Front-end</h5>
-                    <p>А в 2024 году учусь в "Geeks" на front-end разрабочика.</p>
+                    <h6></h6>
+                    <h5>Менин педагогикалык принциптерим</h5>
+                    <p>Ар бир окуучуга тең мүмкүнчүлүк берүү.
+
+Изденүү жана жаңылануу.
+
+Сабактарды чыгармачылык менен өткөрүү.
+
+Ынтымак жана сый-урмат.</p>
                 </li>
             </ul>`
 
@@ -61,32 +68,31 @@ res.innerHTML = text;
 
 
 const edu = document.querySelector('.edu__btn');
-const texte = `<h4>Образование</h4>
+const texte = `<h4>Илимий-усулудук ишмердик</h4>
             <p></p>
             <ul>
                 <li>
-                    <h6>2014-2019</h6>
-                    <h5>Sapat</h5>
-                    <p>Когда мне исполнилось 7 лет я пошел в школу "Sapat".</p>
+                    <h5>Ычкам тапшырмалар, олимпиада</h5>
+                    
+                    <p><a href="https://drive.google.com/drive/u/0/folders/1_1idsBm-xcf1EPjyd1KpFp_RTfz5S_Tk">Иштерим ссылка</a></p>
+                </li>
+                <li>
+                    <h6></h6>
+                    <h5>Сабактын иштелмелери</h5>
+                    <p><a href="https://drive.google.com/drive/u/0/folders/1f3iRruwYoJF97WGgwJhrpxqq0WTleYDe">Иштерим ссылка</a></p>
+                </li>
+                <li>
+                    <h6></h6>
+                    <h5>Презентациялар</h5>
+                    <p> <a href="https://drive.google.com/drive/folders/1acbdXbcRGRGmxfLXSZFkFGylMgBR0sJl?usp=drive_link">Иштерим ссылка</a></p>
+                </li>
+                <li>
+                    <h6></h6>
+                    <h5>Методикалык колдонмолор</h5>
+                    <p><a href="https://drive.google.com/drive/folders/1g_PS2lWR2Ke6bzgGtpVN9cLiWAU8COXS?usp=drive_link">Иштерим ссылка</a>  </p>
                 </li>
 
-                <li>
-                    <h6>2019-2020</h6>
-                    <h5>Макаренко</h5>
-                    <p>В 2019 году я перешол в школу "Макаренко" во время Covid-19.</p>
-                </li>
-
-                <li>
-                    <h6>2020-2023</h6>
-                    <h5>Sema</h5>
-                    <p>А в 2020 году занова перешеол в лицей.</p>
-                </li>
-
-                <li>
-                    <h6>2023-2025</h6>
-                    <h5>Ошму</h5>
-                    <p>После 9 я ушел в колледж "Ошиму".</p>
-                </li>
+           
             </ul>`
 
 edu.addEventListener('click' , () =>{
@@ -103,17 +109,17 @@ edu.addEventListener('click' , () =>{
 
 
 
-const img = `<h4>Навыки</h4>
+const img = `<h4>Сыйлыктар</h4>
 
 
 <ul>
-   <img src="./img/pngwing.com (10).png" alt="">
-   <img src="./img/pngwing.com (11).png" alt="">
-   <img src="./img/pngwing.com (12).png" alt="">
-   <img src="./img/pngwing.com (60).png" alt="">
-   <img src="./img/pngwing.com (61).png" alt="">
-   <img src="./img/pngwing.com (82).png" alt="">
-   <img src="./img/pngwing.com (83).png" alt="">
+  <img src="./img/апам1.jpg" alt="">
+<img src="./img/апам2.jpg" alt="">
+<img src="./img/апам3 (2).jpg" alt="">
+<img src="./img/апам4.jpg" alt="">
+<img src="./img/апам5.jpg" alt="">
+<img src="./img/апам6 (2).jpg" alt="">
+   
 </ul>
 `
 const sk = document.querySelector('.skil__btn')
@@ -134,39 +140,35 @@ const texta = `<h4>Обо мне</h4>
             <ul>
                 <li>
                     <h6>ФИО:</h6>
-                    <h5>Акимов Билал Рустамович</h5>
+                    <h5>Кошунва Даракүл Батырович</h5>
                  
                 </li>
 
                 <li>
                     <h6>Оброзование:</h6>
-                    <h5>Средное</h5>
+                    <h5>Вышее</h5>
                    
                 </li>
 
                 <li>
                     <h6>Email:</h6>
-                    <h5>akimovbilal2@gmail.com</h5>
+                    <h5>darkulkoshewa@gmail.com</h5>
                     
                 </li>
 
                 <li>
                     <h6>Языки:</h6>
-                    <h5>Кыргызский, руский, узбекский</h5>
+                    <h5>Кыргызский, руский</h5>
                     
                 </li>
 
                 <li>
                     <h6>Тел:</h6>
-                    <h5>+996 502 861 838</h5>
+                    <h5>+996 552 35 60 35</h5>
                     
                 </li>
 
-                <li>
-                    <h6>Инста:</h6>
-                    <h5>@akimovl.design</h5>
-                    
-                </li>
+            
             </ul>
 `
 
@@ -262,3 +264,24 @@ styles.textContent = `
 `;
 document.head.appendChild(styles);
 
+
+
+
+
+edu.addEventListener('click' , () =>{
+    res.innerHTML = texte;
+    res.className = 'resume__right edu';
+
+    // находим ВСЕ ссылки
+    const links = res.querySelectorAll('a');
+
+    // меняем цвет каждой
+    links.forEach(link => {
+        link.style.setProperty('color','white','important');
+    });
+
+    edu.classList.add('primary');
+    ab.classList.remove('primary')
+    sk.classList.remove('primary')
+    ex.classList.remove('primary')
+})
