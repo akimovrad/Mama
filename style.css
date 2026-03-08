@@ -9,43 +9,42 @@
 }
 
 :root{
-    --color-primary: #8b0000;
-    --color-gray-0: #fff;
-    --color-primary-variant: rgba(139, 0, 0, 0.5); /* Темно-красный с прозрачностью */
-    --color-gray-100: #6c0e0f; /* Темный бордовый */
-    --color-gray-50: #7a0c0f; /* Бордовый */
-    --color-gray-300: #520e0d; /* Темно-бордовый */
-    --color-gray-200: #5f0f0f; /* Бордово-красный */
-    --color-gray-500: #380a08; /* Очень темный бордовый */
-    --color-gray-400: #450c0b; /* Глубокий бордовый */
-    --color-gray-700: #1f0505; /* Почти черный, очень темный бордовый */
-    --color-gray-600: #2b0707; /* Почти черный с бордовым оттенком */
-    --color-gray-900: #0a0202; /* Очень темный бордовый с черным */
-    --color-gray-800: #140303; /* Почти черный с бордовыми нотами */
+   
+    --color-primary: #2563eb;
+    --color-gray-0: #ffffff;
 
-    
+    --color-primary-variant: rgba(37, 99, 235, 0.3);
+
+    --color-gray-50: #f8fbff;
+    --color-gray-100: #e8f1ff;
+    --color-gray-200: #c7dbff;
+    --color-gray-300: #9ec3ff;
+    --color-gray-400: #6fa6ff;
+    --color-gray-500: #3b82f6;
+    --color-gray-600: #2563eb;
+    --color-gray-700: #1d4ed8;
+    --color-gray-800: #1e3a8a;
+    --color-gray-900: #0f172a;
 
     --container-w-lg: 74%;
     --container-w-sm: 94%;
 
     --transition: all 350ms ease;
-
-
 }
 
 
 .dark-theme-variablse{
-    --color-gray-0: #0e0d14;
-    --color-gray-50: #211f2e;
-    --color-gray-100: #252233;
-    --color-gray-200: #545454;
-    --color-gray-300: #7b7b7b;
-    --color-gray-400: #919191;
-    --color-gray-500: #a1a1a1;
-    --color-gray-600: #c0c0c0;
-    --color-gray-700: #e6e5e5;
-    --color-gray-800: #fafafa;
-    --color-gray-900: #fff;
+    --color-gray-0: #0f172a;
+    --color-gray-50: #1e293b;
+    --color-gray-100: #334155;
+    --color-gray-200: #475569;
+    --color-gray-300: #64748b;
+    --color-gray-400: #94a3b8;
+    --color-gray-500: #cbd5e1;
+    --color-gray-600: #e2e8f0;
+    --color-gray-700: #f1f5f9;
+    --color-gray-800: #f8fafc;
+    --color-gray-900: #ffffff;
 }
 
 
